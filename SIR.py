@@ -6,7 +6,7 @@ from scipy.optimize import minimize
 import matplotlib.pyplot as plt
 from matplotlib import colors
 
-df = pd.read_csv('Allmp.allfeatures.txt', sep='\t')
+df = pd.read_csv('examples/Allmp.allfeatures.txt', sep='\t')
 
 
 def negative_log_likelihood(params, mp_abundance, good_bacteria_abundance):
